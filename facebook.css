@@ -1,0 +1,245 @@
+*{
+    margin:0 ;
+}
+.main{
+    
+    margin: 10%;
+    margin-right: 20%;
+    margin-top: 15%;
+}
+.main>img{
+    height: 200px;
+    width: 500px;
+    position: relative;
+    top: 10px;
+    left: 70px;
+    
+}
+#facebook_helps{
+    font-family: "Montserrat", serif;
+    font-size: x-large;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: bold;
+    position: relative;
+    left:20px;
+    margin-top: -20px;
+}
+.form{
+     
+    background-color: white;
+    margin: 10px; 
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    padding: 50px;
+    
+}
+.forms{
+    margin-right:20%;
+}
+#email{
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px;
+}
+#password{
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px;
+}
+.login_btn{
+    margin-top: 40px;
+    padding: 20px;
+    border:1px solid;
+    text-align: center;
+    background-color: rgb(33, 33, 223);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.login_btn:hover{
+    background-color: rgb(233, 233, 241);
+    color: black;
+    box-shadow: 0 0 10px black;
+}
+.forget{
+    margin-top: 20px;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+}
+.forget:hover{
+    text-decoration: underline;
+}
+.border{
+    border: 1px solid black;
+    margin-top: 30px;
+}
+.account{
+    border: 1px solid ;
+    border-radius: 10px;
+
+    margin-top: 10% ;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(30, 254, 0, 0.875);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: 400;
+    cursor: pointer;
+}
+.account:hover{
+    background-color: rgb(238, 240, 236);
+    color: black;
+    box-shadow: 0 0 10px black;
+
+}
+#developer{
+    margin-top: 5%;
+    font-size: medium;
+    font-weight: 400;
+    font-family: "Playwrite GB S", serif;
+    position: relative;
+    left: 200px;
+}
+#developer>span{
+    font-weight: bold;
+   
+}
+
+
+@media only screen and (min-width: 380px) and (max-width:800px)/* media queries using mobile view port screens */
+{
+    .main{
+    
+        margin: 0%;
+        margin-right: 0%;
+        margin-top: 2%;
+    }
+    .main>img{
+        height: 200px;
+        width: 250px;
+       
+
+
+
+}
+#facebook_helps{
+   font-family: "Montserrat", serif;
+   font-weight: 100;
+   font-size: x-large;
+   
+   
+}
+#developer{
+    margin-top: 10%;
+    font-size: medium;
+    font-weight: 400;
+    font-family: "Playwrite GB S", serif;
+    position: relative;
+    left: 50px;
+    top:400px;
+}
+#developer>span{
+    font-weight: bold;
+   
+}
+.form{
+    
+    background-color: white;
+    margin: 0; 
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+    position: absolute;
+    top: 35%;
+    left: 18%;
+    padding: 20px;
+    
+}
+.forms{
+    margin-right:0;
+}
+#email{
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px;
+}
+#password{
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px;
+}
+.login_btn{
+    margin-top: 20px;
+    padding: 10px;
+    border:1px solid;
+    text-align: center;
+    background-color: rgb(33, 33, 223);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.login_btn:hover{
+    background-color: rgb(233, 233, 241);
+    color: black;
+    box-shadow: 0 0 10px black;
+}
+.forget{
+    margin-top: 20px;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+}
+.forget:hover{
+    text-decoration: underline;
+}
+.border{
+    border: 1px solid black;
+    margin-top: 30px;
+}
+.account{
+    border: 1px solid ;
+    border-radius: 10px;
+
+    margin-top: 10% ;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(30, 254, 0, 0.875);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: 400;
+    cursor: pointer;
+}
+.account:hover{
+    background-color: rgb(238, 240, 236);
+    color: black;
+    box-shadow: 0 0 10px black;
+
+}
+
+}
+
